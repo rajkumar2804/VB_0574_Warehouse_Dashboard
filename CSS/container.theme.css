@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header{
+  width: 100%;
+  height: 65px;  
+  background :url("img/header.jpg");
+}
+
+.logo{
+  float: left;
+  padding-top: 10px;
+  padding-left: 1%;
+}
+
+
+.shopicon{
+  float: right;
+  padding-top: 14px;
+  padding-right: 1%;
+}
+
+#table_id tbody tr:hover {
+
+  background-color: #d1dee3;
+}
+
+
+#map-container { 
+  float: left;  
+  margin-top:20px;  
+  margin-left:2%;  
+  height: 500px; 
+  width:47% ; 
+  box-sizing: border-box;
+  box-shadow: 10px 10px 10px grey;  
+}
+
+#map{
+  height: 500px;
+  width:100% ;
+  border-style: double;  
+} 
+
+#chart{
+  height: 500px;
+  width:100% ; 
+  border-style: double; 
+}
+  
+
+#container {
+  float: right; 
+  margin-top:20px;   
+  margin-right: 2%;  
+  height: 500px; 
+  width:47%; 
+  box-shadow: 10px 10px 10px grey; 
+  box-sizing: border-box; 
+}
+
+#datatable {
+        position: relative;
+	float: left;
+	padding-top: 1.5%;
+        padding-bottom: 1.5%;
+	width: 100%;
+}
+
+#tablecontainer{ 
+  width:97% ; 
+  padding: 8px;  
+  border-radius: 20px;
+  border-width:5px;  
+  border-style:solid; 
+  background :url("img/table.jpg"); 
+  box-shadow: 10px 10px 10px grey; box-sizing: border-box;
+}
+
+

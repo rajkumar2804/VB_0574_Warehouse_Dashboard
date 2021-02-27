@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vargi-Bots</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<header>
+<div class="header">
+     <div class="logo">
+          <img  src="https://1.bp.blogspot.com/-Mf8BMUPsN6w/Vmb8QW2PGQI/AAAAAAAAB_o/OPSKHUMWRe8/s1600/img25.jpg" alt="e_yantra_logo" width="200px" height="40px">
+     </div>
+     <div class="shopicon">
+         <i class="fas fa-cart-plus" style="font-size: 30px; color:aliceblue;"></i>
+     </div>
+</div>
+</header>
+
+<body>
+      <div id="map-container">
+      <div id="map"></div>
+      </div>     
+      <div id="container">
+      <div id="chart"></div>
+      </div>
+      <div id ="datatable">
+      <center>
+      <div id ="tablecontainer">         
+        <table id="table_id" class="hover cell-border" style="width:100%">
+        <thead>
+        <th>Order ID</th>
+                <th>Item</th>
+                <th>Priority</th>
+                <th>Quantity</th>
+                <th>City</th>
+                <th>Disptached</th>
+                <th>Shipped</th>
+                <th>Order Date and Time</th>
+                <th>Dispatch Date and Time</th>
+                <th>Shipped Date and Time</th>
+                <th>Time Taken</th>
+            </tr>
+         <tbody id="tableContent" class = "table1">
+        </tbody>
+        </table>
+     </div>
+    </center>
+    </div>
+</body>
+
+<style>
+body {
+  background-image: url("img/bg.jpg");
+}
+</style>
+
+
+
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin=""/>
+
+    <script
+    src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+    crossorigin=""></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+ 
+    <script src="https://code.highcharts.com/stock/highstock.js"></script>
+    <script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/stock/modules/accessibility.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.23/css/jquery.dataTables.min.css">
+
+    <link rel="stylesheet" type="text/css" href="CSS/container.theme.css">
+
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="js/globalVariables.js"></script>
+    <script type="text/javascript" src="js/documentReday.js"></script>
+    <script type="text/javascript" src="js/createChart.js"></script>
+    <script type="text/javascript" src="js/createMap.js"></script>
+    <script type="text/javascript" src="js/mapRefresh.js"></script>
+    <script type="text/javascript" src="js/chartRefresh.js"></script>
+       
+</html>
+
+
+
+
+
+
