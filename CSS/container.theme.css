@@ -80,4 +80,14 @@
   box-shadow: 10px 10px 10px grey; box-sizing: border-box;
 }
 
+#footer {
+	background-color: #333333;
+	color: #e3e3e3;
+	position: relative;
+	height: 30px;
+	margin-top: -30px;
+	padding: 3px 0;
+	text-align: center;
+	clear: both;
+}
 
